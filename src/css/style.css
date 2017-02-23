@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'miaofont';
+    src: url('../font/miaofont.ttf');
+    src:
+        url('../font/miaofont.eot?#font-spider') format('embedded-opentype'),
+        url('../font/miaofont.woff') format('woff'),
+        url('../font/miaofont.ttf') format('truetype'),
+        url('../font/miaofont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'miaofont', 'Roboto', sans-serif;
+    background-color: #212121;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: .5em 0;
+}
+
+h3 {
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.125px;
+}
+
+h4:not(:first-child) {
+    margin: 3em 0 1.2em;
+}
